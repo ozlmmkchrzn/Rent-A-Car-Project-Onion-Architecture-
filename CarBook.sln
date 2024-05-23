@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBook.Persistence", "Infr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B73B8443-7CF4-4BD6-B167-EB629A9DE040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.WebApi", "Presentation\CarBook.WebApi\CarBook.WebApi.csproj", "{19F598FD-EDB2-48FB-B2D8-520862D3ABFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBook.WebApi", "Presentation\CarBook.WebApi\CarBook.WebApi.csproj", "{19F598FD-EDB2-48FB-B2D8-520862D3ABFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Application", "Core\CarBook.Application\CarBook.Application.csproj", "{D22BD5AE-D218-4506-A09E-03296564BFA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBook.Application", "Core\CarBook.Application\CarBook.Application.csproj", "{D22BD5AE-D218-4506-A09E-03296564BFA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{E6784689-825A-4C82-BA91-4F351AAC77FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.WebUI", "Frontends\CarBook.WebUI\CarBook.WebUI.csproj", "{55246F0A-C0BC-40A3-9550-A3ED4FB1AABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{D22BD5AE-D218-4506-A09E-03296564BFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D22BD5AE-D218-4506-A09E-03296564BFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D22BD5AE-D218-4506-A09E-03296564BFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55246F0A-C0BC-40A3-9550-A3ED4FB1AABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55246F0A-C0BC-40A3-9550-A3ED4FB1AABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55246F0A-C0BC-40A3-9550-A3ED4FB1AABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55246F0A-C0BC-40A3-9550-A3ED4FB1AABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{2857BA29-3062-4768-9F9A-765019D1E10B} = {7208BB55-9E4C-455F-A03F-22EF79F2DFCC}
 		{19F598FD-EDB2-48FB-B2D8-520862D3ABFB} = {B73B8443-7CF4-4BD6-B167-EB629A9DE040}
 		{D22BD5AE-D218-4506-A09E-03296564BFA4} = {18CFC77B-3D28-42F1-AC2F-882DED58096D}
+		{55246F0A-C0BC-40A3-9550-A3ED4FB1AABA} = {E6784689-825A-4C82-BA91-4F351AAC77FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66608496-0E68-4F37-B875-D14119C817DA}
