@@ -11,7 +11,6 @@ namespace CarBook.Domain.Entities
     {
         [Key]
         public int CarID { get; set; }
-        public string Name { get; set; }
 
         public int BrandID { get; set; }
         public Brand Brand { get; set; }

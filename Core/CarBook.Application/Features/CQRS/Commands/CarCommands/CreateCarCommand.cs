@@ -8,7 +8,6 @@ namespace CarBook.Application.Features.CQRS.Commands.CarCommands
 {
     public class CreateCarCommand
     {
-        public string Name { get; set; }
 
         public int BrandID { get; set; }
 

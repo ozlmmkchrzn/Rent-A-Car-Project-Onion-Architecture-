@@ -32,7 +32,6 @@ namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
                Km = x.Km,
                Luggage = x.Luggage,
                Model = x.Model,
-               Name = x.Name,
                Seat = x.Seat,
                Transmission = x.Transmission
             }).ToList();

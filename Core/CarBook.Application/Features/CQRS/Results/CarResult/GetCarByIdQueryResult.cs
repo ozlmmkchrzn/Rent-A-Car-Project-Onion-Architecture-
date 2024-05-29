@@ -9,7 +9,6 @@ namespace CarBook.Application.Features.CQRS.Results.CarResult
     public class GetCarByIdQueryResult
     {
         public int CarID { get; set; }
-        public string Name { get; set; }
 
         public int BrandID { get; set; }
 

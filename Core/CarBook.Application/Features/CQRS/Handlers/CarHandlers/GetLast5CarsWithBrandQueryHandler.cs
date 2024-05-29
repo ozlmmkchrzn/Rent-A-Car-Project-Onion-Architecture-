@@ -1,7 +1,5 @@
 ﻿using CarBook.Application.Features.CQRS.Results.CarResult;
-using CarBook.Application.Interfaces;
 using CarBook.Application.Interfaces.CarInterfaces;
-using CarBook.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,31 +8,31 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
 {
-    public class GetCarWithBrandQueryHandler
+    public class GetLast5CarsWithBrandQueryHandler
     {
-        private readonly ICarRepository _repository;
+        private readonly ICarRepository _carRepository;
 
-        public GetCarWithBrandQueryHandler(ICarRepository repository)
+        public GetLast5CarsWithBrandQueryHandler(ICarRepository carRepository)
         {
-            _repository = repository;
+            _carRepository = carRepository;
         }
 
-        public List<GetCarWithBrandQueryResult> Handle()
+        public List<GetLast5CarsWithBrandQueryResult> Handle()
         {
-            var values = _repository.GetCarListWithBrands();
-            return values.Select(x => new GetCarWithBrandQueryResult
+            var values = _carRepository.GetLast5CarWithBrand();
+            return values.Select(x => new GetLast5CarsWithBrandQueryResult
             {
-                BrandName = x.Brand.Name,
-                CarID = x.CarID,
-                BrandID = x.BrandID,
                 BigImageUrl = x.BigImageUrl,
+                BrandID = x.BrandID,
+                CarID = x.CarID,
                 CoverImageUrl = x.CoverImageUrl,
                 Fuel = x.Fuel,
                 Km = x.Km,
                 Luggage = x.Luggage,
                 Model = x.Model,
+                Transmission = x.Transmission,
                 Seat = x.Seat,
-                Transmission = x.Transmission
+                BrandName = x.Brand.Name
             }).ToList();
         }
     }

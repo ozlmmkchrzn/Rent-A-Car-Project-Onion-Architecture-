@@ -30,7 +30,6 @@ namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
                 CarID = values.CarID,
                 Transmission = values.Transmission,
                 Seat = values.Seat,
-                Name = values.Name,
                 Model = values.Model,
                 BigImageUrl = values.BigImageUrl,
                 BrandID = values.BrandID,

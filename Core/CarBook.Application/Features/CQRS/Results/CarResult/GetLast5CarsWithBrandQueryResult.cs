@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.CQRS.Results.CarResult
 {
-    public class GetCarWithBrandQueryResult
+    public class GetLast5CarsWithBrandQueryResult
     {
         public int CarID { get; set; }
 

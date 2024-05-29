@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarBook.Application.Features.CQRS.Results.CarResult
+namespace CarBook.Dto.CarDtos
 {
-    public class GetCarWithBrandQueryResult
+    public class ResultLast5CarsWithBrands
     {
         public int CarID { get; set; }
 
