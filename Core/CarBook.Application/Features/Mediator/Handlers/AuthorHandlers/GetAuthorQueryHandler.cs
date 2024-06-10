@@ -26,7 +26,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.AuthorHandlers
             return values.Select(x => new GetAuthorQueryResult
             {
                 AuthorID = x.AuthorID,
-                Decscription = x.Decscription,
+                Description = x.Description,
                 ImageUrl = x.ImageUrl,
                 Name = x.Name,
             }).ToList();
