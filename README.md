@@ -4,7 +4,7 @@
 
 ## ⚠️ Warning
 
-**Please note:** This project is currently under development and may contain bugs or incomplete features. Use it at your own risk.
+**Please note:** This project is currently under development and may contain bugs or incomplete features. Use it at your own risk. (Udemy Course Project)
 
 ## 🚀 Features
 - User-friendly Interface: Simple and intuitive design for easy navigation.
